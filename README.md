@@ -1,5 +1,5 @@
 # springcoudDemo2.0
-## ï¿½òµ¥µï¿½ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½redisï¿½æ´¢ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½
-* ï¿½ï¿½ï¿½ï¿½Spring Boot 2.0.2 ,Spring Cloudï¿½æ±¾ÎªFinchley.BUILD-SNAPSHOT
+## ÌìÆøÎ¢·þÎñ
+* ²ÉÓÃSpring Boot 2.0.2 ,Spring Cloud°æ±¾ÎªFinchley.BUILD-SNAPSHOT
 ![](https://github.com/liao316259481/springcoudDemo2.0/blob/master/src/main/resources/img.png) 
  
