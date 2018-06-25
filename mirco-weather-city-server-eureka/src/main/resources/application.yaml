@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: micro-weather-city-server-eureka
+#  redis:
+#    sentinel: # 哨兵
+#      nodes:
+#    cluster:  # 主机集群
+#      nodes:
+server:
+  port: 8082
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/
+  instance:
+    prefer-ip-address: true

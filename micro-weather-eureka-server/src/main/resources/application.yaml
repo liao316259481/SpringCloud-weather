@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: micro-weather-eureka-server
+  profiles:
+    active: peer1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#      defaultZone: http://peer2:8768/eureka/
+
+#---
+#
+#spring:
+#  application:
+#    name: micro-weather-eureka-server
+#  profiles:
+#    active: peer2
+#server:
+#  port: 8768
+#eureka:
+#  instance:
+#    hostname: peer2
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://peer1:8761/eureka/

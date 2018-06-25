@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: micro-weather-collection-server-eureka-feign
+server:
+  port: 18080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/
+  instance:
+    prefer-ip-address: true
+fegin:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudSimple.iml" filepath="$PROJECT_DIR$/SpringCloudSimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-collection-server-eureka-feign/micro-weather-collection-server-eureka-feign.iml" filepath="$PROJECT_DIR$/micro-weather-collection-server-eureka-feign/micro-weather-collection-server-eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-data-server-eureka/micro-weather-data-server-eureka.iml" filepath="$PROJECT_DIR$/micro-weather-data-server-eureka/micro-weather-data-server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-eureka-client/micro-weather-eureka-client.iml" filepath="$PROJECT_DIR$/micro-weather-eureka-client/micro-weather-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-eureka-client-feign/micro-weather-eureka-client-feign.iml" filepath="$PROJECT_DIR$/micro-weather-eureka-client-feign/micro-weather-eureka-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-eureka-client-zuul/micro-weather-eureka-client-zuul.iml" filepath="$PROJECT_DIR$/micro-weather-eureka-client-zuul/micro-weather-eureka-client-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-eureka-server/micro-weather-eureka-server.iml" filepath="$PROJECT_DIR$/micro-weather-eureka-server/micro-weather-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-report-server-eureka-feign/micro-weather-report-server-eureka-feign.iml" filepath="$PROJECT_DIR$/micro-weather-report-server-eureka-feign/micro-weather-report-server-eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-weather-report-server-eureka-feign-gateway/micro-weather-report-server-eureka-feign-gateway.iml" filepath="$PROJECT_DIR$/micro-weather-report-server-eureka-feign-gateway/micro-weather-report-server-eureka-feign-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mirco-weather-city-server-eureka/mirco-weather-city-server-eureka.iml" filepath="$PROJECT_DIR$/mirco-weather-city-server-eureka/mirco-weather-city-server-eureka.iml" />
+    </modules>
+  </component>
+</project>

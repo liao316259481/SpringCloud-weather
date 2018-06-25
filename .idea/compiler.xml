@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-weather-collection-server-eureka-feign" />
+        <module name="micro-weather-data-server-eureka" />
+        <module name="micro-weather-eureka-client" />
+        <module name="micro-weather-eureka-client-feign" />
+        <module name="micro-weather-eureka-client-zuul" />
+        <module name="micro-weather-eureka-server" />
+        <module name="micro-weather-report-server-eureka-feign" />
+        <module name="micro-weather-report-server-eureka-feign-gateway" />
+        <module name="mirco-weather-city-server-eureka" />
+        <module name="SpringCloudSimple" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="micro-weather-collection-server-eureka-feign" target="1.8" />
+      <module name="micro-weather-data-server-eureka" target="1.8" />
+      <module name="micro-weather-eureka-client" target="1.8" />
+      <module name="micro-weather-eureka-client-feign" target="1.8" />
+      <module name="micro-weather-eureka-client-zuul" target="1.8" />
+      <module name="micro-weather-eureka-server" target="1.8" />
+      <module name="micro-weather-report-server-eureka-feign" target="1.8" />
+      <module name="micro-weather-report-server-eureka-feign-gateway" target="1.8" />
+      <module name="mirco-weather-city-server-eureka" target="1.8" />
+      <module name="SpringCloudSimple" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

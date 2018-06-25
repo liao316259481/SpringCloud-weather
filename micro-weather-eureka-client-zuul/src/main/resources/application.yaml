@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: micro-weather-eureka-client-zuul
+server:
+  port: 8766
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    city:
+      path: /city/**
+      serviceId: micro-weather-city-server-eureka
+    data:
+      path: /data/**
+      serviceId: micro-weather-data-server-eureka
+#zuul:
+#  routes:
+#    hi:
+#      path: /hi/**
+#      serviceId: micro-weather-eureka-client
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

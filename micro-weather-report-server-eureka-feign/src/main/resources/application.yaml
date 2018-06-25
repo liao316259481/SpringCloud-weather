@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: micro-weather-report-server-eureka-feign
+  thymeleaf:
+    cache: false # 热部署静态文件
+server:
+  port: 18083
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/
+  instance:
+    prefer-ip-address: true
+fegin:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
